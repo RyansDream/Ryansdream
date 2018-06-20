@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+  .cc{
+    font-weight: bold;
+    color: green
+  }
+
+  </style>
+</head>
+<body>
+  <h2>웹앱 만들기</h2>
+  <span class="cc">웹앱</span>을 만들기 위해서는, html 기반에서 움직이는 동적언어인<br>
+  자바스크립트를 CSS로 꾸며서 만든 웹을, 패키징을 통해서 만드는 것이다
+  <br><br>
+  <h3>HTML</h3>
+  HTML로는 많은 기능들을 할 수 있는데, 예를 들면 버튼을 삽입할 수 있다.<br><br>
+  <input type="button" value="day">
+  <input type="button" value="night">
+  <br><br>
+  <h3>자바스크립트</h3>
+  자바스크립트는 이 html기반으로 만든 버튼을 눌렀을 때 이벤트가 발생하도록 만들어준다.
+  <br>
+  코딩 방법은 의식의 흐름대로 가면 된다. 버튼을 만들고, 안에 글귀넣고, 눌렀을때<br>
+  '무엇을' '어떻게' 할 것인가를 쓰자
+  <br>
+  <input type="button" value="day" onclick="
+    document.querySelector('body').style.backgroundColor='white'
+    document.querySelector('body').style.color='black'
+  ">
+  <input type="button" value="night" onclick="
+    document.querySelector('body').style.backgroundColor='black'
+    document.querySelector('body').style.color='white'
+  ">
+  <br><br>
+<h3>조건문</h3>
+조건문을 쓰면 위 day/night 버튼을 한 개의 버튼으로 합칠 수 있다.<br>
+  <input id="twoinone" type="button" value="night" onclick="
+    if(document.querySelector('#twoinone').value === 'night'){
+    document.querySelector('body').style.backgroundColor='black'
+    document.querySelector('body').style.color='white'
+    document.querySelector('#twoinone').value = 'day'
+  }else{
+    document.querySelector('body').style.backgroundColor='white'
+    document.querySelector('body').style.color='black'
+    document.querySelector('#twoinone').value = 'night'
+    }
+  ">
+<br>if라는 조건문을 써서, 버튼의 값이 night일 때 누르면 야간모드로 바뀌면서
+값이 day로 바뀌도록 해놓는다. 그리고 if 조건문에 버튼의 값이 night이 아닐 때에는
+<br>주간모드의 코딩을 실행하도록 해놓았기 때문에, day라는 값으로 바뀐 버튼을 누르면
+<br>주간모드로 바뀌게 된다
+</body>
+</html>
