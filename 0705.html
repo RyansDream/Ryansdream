@@ -11,30 +11,65 @@
     height: 30px;
     width: 850px;
   }
-  #topmenu ul li {
+  #topmenu ul{
     list-style: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  #topmenu ul li {
     color: white;
     background-color: #2d2d2d;
     float: left;
     line-height: 30px;
     vertical-align: middle;
     text-align: center;
+    position: relative;
   }
-  #topmenu .menulink {
+
+  .menulink, .submenulink {
     text-decoration:none;
-    color: white;
     display: block;
     width: 150px;
     font-size: 12px;
     font-weight: bold;
-    font-family: "Trebuchet MS", Dotum, Arial;
+    font-family: "Arial";
   }
-  #topmenu .menulink:hover {
+
+  .menulink{
+    color: white;
+  }
+
+  .menulink:hover {
     color: powderblue;
     background-color: #4d4d4d;
   }
 
+.submenulink{
+  color: #2d2d2d;
+  background-color: white;
+  border: solid 1px black;
+  margin-top: -1px;
+}
 
+.longlink{
+  width: 190px;
+}
+
+.submenu{
+  position: absolute;
+  height: 0px;
+  overflow: hidden;
+  transition: height .2s;
+}
+
+.topmenuli:hover .submenu{
+  height: 93px;
+}
+
+.submenulink:hover{
+  color: red;
+  background-color: #dddddd
+}
 
 </style>
 
@@ -42,9 +77,27 @@
 <body>
   <nav id="topmenu">
     <ul>
-      <li><a class="menulink" href="#">우리의 이야기</a></li>
-      <li><a class="menulink" href="#">오시는 길</a></li>
-      <li><a class="menulink" href="#">메뉴</a></li>
+      <li class="topmenuli">
+        <a class="menulink" href="#">우리의 이야기</a>
+        <ul class="submenu">
+          <li><a class=submenulink longlink">사장 인사</a></li>
+          <li><a class=submenulink longlink">우리의 미션</a></li>
+        </ul>
+      </li>
+      <li>ㅣ</li>
+      <li class="topmenuli">
+        <a class="menulink" href="#">오시는 길</a>
+      </li>
+      <li>ㅣ</li>
+      <li class="topmenuli">
+        <a class="menulink" href="#">메뉴</a>
+        <ul class="submenu">
+          <li><a class=submenulink longlink">고기류</a></li>
+          <li><a class=submenulink longlink">식사류</a></li>
+          <li><a class=submenulink longlink">주류</a></li>
+        </ul>
+      </li>
+      <li>ㅣ</li>
       <li><a class="menulink" href="#">연락처</a></li>
     </ul>
   </nav>
