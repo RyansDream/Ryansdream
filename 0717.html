@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+  <title>웹앱&amp;하이브리드앱</title>
+  <meta charset="utf-8">
+  <style type='text/css'>
+    #internal {
+      color: #808000; margin-left: 20px;
+    }
+    /*float와 clear*/
+    .float_style{
+      float: right;
+    }
+
+    @media (max-width:1023px){
+      body { background-color: coral}
+      } /*핸드폰일 경우 배경 코랄색*/
+
+    @media (min-width : 1024px){
+      body { background-color: #CACACA}
+      } /*핸드폰 아닐 경우 배경 연한 회색*/
+
+  </style>
+  <link rel='stylesheet' type='text/css' href='external.css'/>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <h2>17일 오늘의 중요 사항</h2>
+      <ol>
+        <li>블록레벨 엘리먼트는 태그 넣었을 때 자동줄바꿈됨</li>
+        <li><em>인라인레벨 엘리먼트는</em><em> 이어지면서 생성됨</em>
+    주의할 점은 웹표준을 지키려면 인라인레벨을 블록레벨로 감싸야한다.</li>
+        <li>div와 span의 차이점</li>
+        <div>div는 블록레벨을 모을 때 사용, span은 인라인레벨 모을 때 사용</div>
+        <li>스타일의 종류 1)인라인 스타일</li>
+        <div style="color: #808000;">인라인 스타일 적용되면 이렇게 된다.</div>
+        <li>스타일의 종류 2)내부 스타일 시트</li>
+        <div id="internal">head 부분에 별도 스타일정의 하는 것. id로 이 줄만 설정함</div>
+        <li>스타일의 종류 3)외부 스타일 시트</li>
+        <div id="external">css확장자 파일을 만들어서 해당 파일에서 설정하고 적용하고자하는 파일에서 href 링크시킴</div>
+      </ol>
+
+    <h2>25일 복습과 진도</h2>
+    <h3>Float과 Clear</h3>
+      <ul>
+        <li>Float이 적용된 이미지는 지정된 방향으로 정렬</li>
+        <div class="float_style"><img src="1.jpg" width=10% alt=""/></div>
+        <li>과연 될까??????과연 될까??????
+      과연 될까??????과연 될까??????
+    과연 될까??????과연 될까??????
+  과연 될까??????과연 될까??????</li>
+        <li>Clear는 Float 다음에 오는데, Float에서 명령한 방향과 같은 곳으로 써야함</li>
+        <li>핸드폰 가로/세로모드 전환시 자동으로 정렬되도록 할 때 쓰임</li>
+      </ul>
+
+  </body>
+</html>
