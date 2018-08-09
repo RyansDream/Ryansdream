@@ -9,16 +9,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <div data-role="page">  <!--데이터 롤 page로 쓰면 한페이지 -->
+    <div data-role="page" id="main">  <!--데이터 롤 page로 쓰면 한페이지 -->
       <div data-role="header">  <!--jquery 사용되어 자동으로 상단에 위치 -->
-        <h1>Header</h1>
+        <h1>Main page</h1>
       </div>
       <div data-role="content">
-        <p>Content</p>
+        <h2>This is the main page</h2>
+        <p><a href="#sub" data-role="button">Sub page</a></p>  <!--#sub로 링크 걸면 sub라는 id 찾아서 화면에 표시함-->
       </div>
       <div data-role="footer">
         <h2>Footer</h2>
       </div>
     </div>
+
+    <div data-role="page" id="sub">
+      <div data-role="header">
+        <h1>Sub page</h1>
+      </div>
+      <div data-role="content" data-theme="b">
+        <h2>This is the sub page</h2>
+        <p><a href="#main" data-direction="reverse">Main page</a></p>
+      </div>
+      <div data-role="footer">
+        <h2>Footer</h2>
   </body>
 </html>
