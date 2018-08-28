@@ -1,46 +1,22 @@
 @charset "utf-8";
 
-html, body {height: 100%}
+html, body {height: 95%}
 
   #main{
     background-color: white;
-    border : 0px solid;
+    border : 1px solid;
     border-color: yellow; /*노랑테두리*/
     position: relative;
     padding-left: 20px; padding-right: 20px;
-    margin : 10px;
-    min-height: 100%
-
-  }
-
-.aboutus {
-    float: left;
-    width: 65px;
-    vertical-align: bottom;
-  }
-
-.menu {
-    float: left;
-    width: 65px;
-  }
-
-.hours {
-    float: left;
-    width: 65px;
-  }
-
-.contactus {
-    float: left;
-    width: 65px;
+    height: 95vh;
   }
 
 .lambylogo{
   padding: 10px;
-  text-align: center;
   width: 150px;
   height: 100px;
   position: relative;
-  display: table; margin-top: 10px; margin-left: auto; margin-right: auto;
+  display: table; margin-top: 20px; margin-left: auto; margin-right: auto;
 }
 
 .lamyisthefuture{
@@ -67,3 +43,26 @@ html, body {height: 100%}
   position: relative;
   display: table; margin-top: 10px; margin-left: auto; margin-right: auto;
 }
+
+
+
+.aboutus {
+    float: left;
+    width: 65px;
+    vertical-align: bottom;
+  }
+
+.menu {
+    float: left;
+    width: 65px;
+  }
+
+.hours {
+    float: left;
+    width: 65px;
+  }
+
+.contactus {
+    float: left;
+    width: 65px;
+  }
