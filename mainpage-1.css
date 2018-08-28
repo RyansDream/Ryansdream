@@ -4,7 +4,7 @@ html, body {height: 90%}
 
   #main{
     background-color: white;
-    border : 0px solid;
+    border : 1px solid;
     border-color: yellow; /*노랑테두리*/
     position: relative;
     padding-left: 20px; padding-right: 20px;
@@ -80,3 +80,51 @@ html, body {height: 90%}
     border: 1px solid;
     border-color: black;
   }
+
+  .Submenus1{
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    width: 270px;
+    height: 67.5px;
+    border : 1px solid;
+    border-color: black;
+    position: relative;
+    display: table; margin-top: 5px; margin-left: auto; margin-right: auto;
+  }
+
+  .aboutus1 {
+      float: left;
+      width: 65.5px;
+      height: 65.5px;
+      vertical-align: bottom;
+      border: 1px solid;
+      border-color: black;
+    }
+
+  .menu1 {
+      float: left;
+      width: 65.5px;
+      height: 65.5px;
+      vertical-align: bottom;
+      border: 1px solid;
+      border-color: black;
+    }
+
+  .hours1 {
+      float: left;
+      width: 65.5px;
+      height: 65.5px;
+      vertical-align: bottom;
+      border: 1px solid;
+      border-color: black;
+    }
+
+  .contactus1 {
+      float: left;
+      width: 65.5px;
+      height: 65.5px;
+      vertical-align: bottom;
+      border: 1px solid;
+      border-color: black;
+    }
