@@ -9,6 +9,27 @@
     margin : 10px;
   }
 
+.aboutus {
+    float: left;
+    width: 55px;
+    vertical-align: bottom;
+  }
+
+.menu {
+    float: left;
+    width: 55px;
+  }
+
+.hours {
+    float: left;
+    width: 55px;
+  }
+
+.contactus {
+    float: left;
+    width: 55px;
+  }
+
 .lambylogo{
   padding: 10px;
   text-align: center;
