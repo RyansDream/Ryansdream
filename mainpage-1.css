@@ -1,33 +1,36 @@
 @charset "utf-8";
 
+html, body {height: 100%}
+
   #main{
     background-color: white;
     border : 1px solid;
-    border-color: black;
+    border-color: yellow; /*노랑테두리*/
     position: relative;
     padding-top : 30px; padding-bottom: 30px; padding-left: 20px; padding-right: 20px;
     margin : 10px;
+    min-height: 100%
   }
 
 .aboutus {
     float: left;
-    width: 55px;
+    width: 65px;
     vertical-align: bottom;
   }
 
 .menu {
     float: left;
-    width: 55px;
+    width: 65px;
   }
 
 .hours {
     float: left;
-    width: 55px;
+    width: 65px;
   }
 
 .contactus {
     float: left;
-    width: 55px;
+    width: 65px;
   }
 
 .lambylogo{
