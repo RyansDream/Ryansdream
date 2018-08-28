@@ -38,8 +38,7 @@ html, body {height: 90%}
   text-align: center;
   width: 270px;
   height: 67.5px;
-  border : 1px solid;
-  border-color: black;
+  border: 1px solid transparent;
   position: relative;
   display: table; margin-top: 20px; margin-left: auto; margin-right: auto;
 }
@@ -49,36 +48,28 @@ html, body {height: 90%}
     float: left;
     width: 65.5px;
     height: 65.5px;
-    vertical-align: bottom;
-    border: 1px solid;
-    border-color: black;
+    border: 1px solid transparent;
   }
 
 .menu {
     float: left;
     width: 65.5px;
     height: 65.5px;
-    vertical-align: bottom;
-    border: 1px solid;
-    border-color: black;
+    border: 1px solid transparent;
   }
 
 .hours {
     float: left;
     width: 65.5px;
     height: 65.5px;
-    vertical-align: bottom;
-    border: 1px solid;
-    border-color: black;
+    border: 1px solid transparent;
   }
 
 .contactus {
     float: left;
     width: 65.5px;
     height: 65.5px;
-    vertical-align: bottom;
-    border: 1px solid;
-    border-color: black;
+    border: 1px solid transparent;
   }
 
   .Submenus1{
@@ -87,8 +78,7 @@ html, body {height: 90%}
     text-align: center;
     width: 270px;
     height: 67.5px;
-    border : 1px solid;
-    border-color: black;
+    border: 1px solid transparent;
     position: relative;
     display: table; margin-top: 5px; margin-left: auto; margin-right: auto;
   }
@@ -97,34 +87,26 @@ html, body {height: 90%}
       float: left;
       width: 65.5px;
       height: 65.5px;
-      vertical-align: bottom;
-      border: 1px solid;
-      border-color: black;
+      border: 1px solid transparent;
     }
 
   .menu1 {
       float: left;
       width: 65.5px;
       height: 65.5px;
-      vertical-align: bottom;
-      border: 1px solid;
-      border-color: black;
+      border: 1px solid transparent;
     }
 
   .hours1 {
       float: left;
       width: 65.5px;
       height: 65.5px;
-      vertical-align: bottom;
-      border: 1px solid;
-      border-color: black;
+      border: 1px solid transparent;
     }
 
   .contactus1 {
       float: left;
       width: 65.5px;
       height: 65.5px;
-      vertical-align: bottom;
-      border: 1px solid;
-      border-color: black;
+      border: 1px solid transparent;
     }
