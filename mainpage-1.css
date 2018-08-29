@@ -4,8 +4,7 @@ html, body {height: 95%}
 
   #main{
     background-color: white;
-    border : 1px solid;
-    border-color: yellow; /*노랑테두리*/
+    border : 1px solid transparent;
     position: relative;
     padding-left: 20px; padding-right: 20px;
     height: 95vh;
@@ -26,61 +25,65 @@ html, body {height: 95%}
   vertical-align: middle;
   width: 200px;
   height: 80px;
-  border : 1px solid;
-  border-color: black;
+  border: 1px solid transparent;
   position: relative;
   display: table; margin-top: 5px; margin-left: auto; margin-right: auto;
 }
 
 .Submenus{
   background-color: white;
-  padding: 5px;
+  padding-top: 10px;
+
   text-align: center;
   width: 270px;
-  height: 67.5px;
-  border: 1px solid transparent;
+  height: 60px;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid;
   position: relative;
-  display: table; margin-top: 20px; margin-left: auto; margin-right: auto;
+  display: table; margin-top: 15px; margin-left: auto; margin-right: auto;
 }
 
 
 .aboutus {
     float: left;
     width: 65.5px;
-    height: 65.5px;
+    height: 60px;
     border: 1px solid transparent;
   }
 
 .menu {
     float: left;
     width: 65.5px;
-    height: 65.5px;
+    height: 60px;
     border: 1px solid transparent;
   }
 
 .hours {
     float: left;
     width: 65.5px;
-    height: 65.5px;
+    height: 60px;
     border: 1px solid transparent;
   }
 
 .contactus {
     float: left;
     width: 65.5px;
-    height: 65.5px;
+    height: 60px;
     border: 1px solid transparent;
   }
 
   .Submenus1{
     background-color: white;
-    padding: 5px;
+    padding: 0px;
     text-align: center;
     width: 270px;
     height: 67.5px;
     border: 1px solid transparent;
     position: relative;
-    display: table; margin-top: 5px; margin-left: auto; margin-right: auto;
+    display: table; margin-top: 0px; margin-left: auto; margin-right: auto;
+    font-size: 12px;
   }
 
   .aboutus1 {
